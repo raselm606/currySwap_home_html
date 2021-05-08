@@ -485,8 +485,9 @@ ul li{
     background: #fff;
     color: #f68b38;
     padding: 2px 20px !important;
-    border-radius: 6px;
+    border-radius: 32px;
     margin-top: 30px;
+    border: 6px solid #da6911;
 }
 .auction_lobby {
     background: url(../images/auction_lobby_bg.jpg);
@@ -524,6 +525,25 @@ ul li{
     margin-bottom: 40px;
 }
 
+.curry_vv2_title h2 {
+    font-size: 70px;
+    font-weight: 900;
+    text-align: center;
+    color: #ffffff;
+}
+.curry_vv2_title h2 span {
+    color: #4e504f;
+}
+
+.chili_vv2_title h2 {
+    font-size: 70px;
+    font-weight: 900;
+    text-align: center;
+    color: #ffffff;
+}
+.chili_vv2_title h2 span {
+    color: #f68b38;
+}
 /* Tokenomics section css */
 .tokenmic_section {
     background: url(../images/tokenomics_bg.jpg);
@@ -561,10 +581,37 @@ span.tt2 {
     margin-bottom: 15px;
     width: 300px;
 }
+.cerc20 .nav .nav-link {
+    background: #da6911;
+    border: #da6911;
+}
+.tokenmic_tab .nav {
+    border-bottom: 3px solid #fff !important;
+    padding-bottom: 30px;
+}
 .tokenmic_tab .nav .nav-link.active {
     background: #ffffff;
     color: #f68b38 !important;
 }
+
+.curryswap_tab .nav {
+    border-bottom: 3px solid #fff !important;
+    padding-bottom: 30px;
+}
+
+.curryswap_tab .nav .nav-link {
+    color: #fff !important;
+    font-weight: 600;
+    background: #f68b38;
+    border-radius: 30px;
+    border: #f68b38;
+    margin-bottom: 15px;
+}
+.curryswap_tab .nav .nav-link.active {
+    background: #ffffff;
+    color: #f68b38 !important;
+}
+
 .curry_tokmincs_para ul li {
     font-size: 18px;
     margin-bottom: 10px;
