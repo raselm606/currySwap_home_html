@@ -774,6 +774,41 @@ span.tt2 {
     color: #f68b38;
     margin-right: 7px;
 }
+
+/* extraa css */
+.chili_governs p {
+    font-size: 17px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.chili_governs ul li {
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 8px;
+}
+.chili_governs  svg{
+    margin-right: 6px;
+}
+
+
+.left--roadmap.r1 {
+    margin-top: -50px;
+}
+.right--roadmap.r2 {
+    margin-top: -120px;
+}
+.left--roadmap.r3 {
+    margin-top: -160px;
+}
+.right--roadmap.r4 {
+    margin-top: -30px;
+}
+.left--roadmap.r5 {
+    margin-top: -70px;
+}
+.right--roadmap.r6 {
+    margin-top: -65px;
+}
 /* Main css responsive css */
 @media only screen and (min-width: 768px) and (max-width: 1024px){
     .slider_right_text h1 span {
@@ -861,9 +896,23 @@ span.tt2 {
     font-size: 44px;
     line-height: 54px;
 }
+
+.r1, .r2,.r3,.r4,.r5,.r6{
+    margin-top: 0px !important;
+}
+.curry_vv2_title h2, .chili_vv2_title h2 {
+    font-size: 44px;
+    line-height: 55px;
+}
+.yeild_para p, .left_curry_fe_text p, .right_curry_fe_text p, .curry_para p, .what_is_curryswap p, .daily_three_items p, .bottom-textt_slide p {
+    font-size: 18px;
+}
 }
 @media only screen and (min-width: 360px) and (max-width: 640px){
     /* roadmap start */
+    .r1, .r2,.r3,.r4,.r5,.r6{
+    margin-top: 0px !important;
+}
      .right--roadmap {
     margin-left: 0px;
     text-align: left;
@@ -987,11 +1036,21 @@ span.tt2 {
     font-size: 44px;
     line-height: 54px;
 }
+.curry_vv2_title h2, .chili_vv2_title h2 {
+    font-size: 44px;
+    line-height: 55px;
+}
+.yeild_para p, .left_curry_fe_text p, .right_curry_fe_text p, .curry_para p, .what_is_curryswap p, .daily_three_items p, .bottom-textt_slide p {
+    font-size: 18px;
+}
 }
 @media only screen and (min-width: 320px) and (max-width: 568px){
     /* roadmap start */
    .left--roadmap {
     margin-bottom: 30px;
+}
+.r1, .r2,.r3,.r4,.r5,.r6{
+    margin-top: 0px !important;
 }
 .left--roadmap {
     width: 251px;
@@ -1105,6 +1164,13 @@ span.tt2 {
 .roadmap_title h2 {
     font-size: 44px;
     line-height: 54px;
+}
+.curry_vv2_title h2, .chili_vv2_title h2 {
+    font-size: 44px;
+    line-height: 55px;
+}
+.yeild_para p, .left_curry_fe_text p, .right_curry_fe_text p, .curry_para p, .what_is_curryswap p, .daily_three_items p, .bottom-textt_slide p {
+    font-size: 18px;
 }
 }
 
